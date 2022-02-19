@@ -1,0 +1,2 @@
+# pokedex-react
+projecto pokedex.
