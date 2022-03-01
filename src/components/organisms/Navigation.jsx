@@ -1,7 +1,11 @@
 import React from 'react';
 
-export const Navigation = (props) => (
-<nav></nav>
-);
+/**
+ * Navigation component.
+ * @returns {JSX.Element}
+ */
+
+export const Navigation = () => <nav></nav>;
+
 
 export default Navigation;

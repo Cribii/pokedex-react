@@ -1,14 +1,13 @@
 import React from 'react';
 
 /**
- * 
- * @param {*} props 
- * @returns 
+ * Header component.
+ * componente para la cabecera de la pokedex. 
+ * @returns {JSX.Element}
  */
 
 
-export const Header = (props) => (
-   <Header></Header>
-);
+export const Header = () => <Header></Header>;
+
 
 export default Header;

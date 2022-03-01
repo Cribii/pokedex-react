@@ -1,7 +1,11 @@
 import React from 'react';
 
-export const MainContainer = (props) => (
-  <main></main>
-);
+/**
+ * Main container component.
+ * @returns {JSX.Element}
+ */
+
+export const MainContainer = () => <main></main>;
+
 
 export default MainContainer;
