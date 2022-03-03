@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../organisms/SEO';
 import Header from '../organisms/Header';
-import Navigation from "../organisms/Navigation";
+import Navigation from '../organisms/Navigation';
 import MainContainer from '../organisms/MainContainer';
 import Footer from '../organisms/Footer';
 
