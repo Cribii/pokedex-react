@@ -7,16 +7,17 @@ import Footer from '../organisms/Footer';
 
 /**
  * Default layout for site.
+ * @param {{children: React.ReactNode}} props
  * @returns {JSX.Element}
  */
 export const DefaultLayout = (props) => (
-    <>
+  <>
      <SEO />
      <header />
      <Navigation />
-     <MainContainer />
+     <MainContainer>{props.children}</MainContainer>
      <footer />
-    </>
+ </>
 
 );
 
