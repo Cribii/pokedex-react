@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../organisms/SEO';
 import Header from '../organisms/Header';
-import Navigation from '../organisms/Navigation';
+import Navigation from "../organisms/Navigation";
 import MainContainer from '../organisms/MainContainer';
 import Footer from '../organisms/Footer';
 
@@ -12,13 +12,12 @@ import Footer from '../organisms/Footer';
  */
 export const DefaultLayout = (props) => (
   <>
-     <SEO />
-     <header />
-     <Navigation />
-     <MainContainer>{props.children}</MainContainer>
-     <footer />
- </>
-
+    <SEO />
+    <header />
+    <Navigation />
+    <MainContainer>{props.children}</MainContainer>
+    <footer />
+  </>
 );
 
 export default DefaultLayout;
