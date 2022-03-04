@@ -12,13 +12,12 @@ import Footer from '../organisms/Footer';
  */
 export const DefaultLayout = (props) => (
   <>
-     <SEO />
-     <header />
-     <Navigation />
-     <MainContainer>{props.children}</MainContainer>
-     <footer />
- </>
-
+    <SEO />
+    <header />
+    <Navigation />
+    <MainContainer>{props.children}</MainContainer>
+    <footer />
+  </>
 );
 
 export default DefaultLayout;
